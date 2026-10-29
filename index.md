@@ -12,10 +12,14 @@ math: mathjax
 
 
 
-We will use this site to handle the any project updates. 
+{: .note}
+> We will use this site to handle any project updates. Check the **[Version History]({% link version_history.md %})** page to track recent changes.
 
 
-## Motivation: Why a Reciver Front End?
+> Current Version: v1.0.1 | Last Changed: 10/29/2026 by CV
+
+
+## Motivation: Why a Receiver Front End?
 
 
 ### The rate doubles every generation; the wire does not get better
