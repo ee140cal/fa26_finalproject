@@ -1,0 +1,14 @@
+title: EE140/240A
+description: Final Project Website
+theme: just-the-docs
+math: mathjax
+
+# Instructional server did not work, so hosting it on github now
+url: "https://ee140cal.github.io"
+baseurl: "/fa26_finalproject"
+
+# Why aren't these aux links working
+aux_links:
+  Queue: https://forms.gle/9Zs4AuowGmoU83vJ9
+  bCourses: https://bcourses.berkeley.edu/courses/1557783
+  Ed: https://edstem.org/us/courses/103514/discussion/8448656
