@@ -1,7 +1,11 @@
 title: EE140/240A
 description: Final Project Website
-theme: just-the-docs
+#theme: just-the-docs
 math: mathjax
+plugins:
+  - jekyll-remote-theme
+
+remote_theme: just-the-docs/just-the-docs
 
 # Instructional server did not work, so hosting it on github now
 url: "https://ee140cal.github.io"
