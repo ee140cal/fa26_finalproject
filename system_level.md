@@ -70,3 +70,17 @@ please consult the GSIs first.
 | LDO Settling Time | 300 ns (same as LDO target) |
 | Channels | (**140**) A/B/C: 4/10/16 dB loss at 5 GHz<br> <br>(**240A**) A/B/C: 10/16/23 dB loss at 5 GHz |
 | Bit-error rate (BER) | Zero errors over test sequence |
+
+
+### Instructions to Copy the TB
+
+You can copy the system-level test bench from the instructor account using the instructions below
+
+1. Open the Terminal and go to the Cadence folder `cd ~/cadence`
+2. To copy the test benches `cp -r /home/ff/ee140/fa26/project_fa26/system_level_tb .`
+3. To copy the modules/ideal blocks `cp -r /home/ff/ee140/fa26/project_fa26/system_level_blocks .`
+4. Open Viruoso. In the **Library Manager** window, go to **Edit** $\rightarrow$ **Library Path...**. At the bottom of the list, add the above two libraries by giving a 
+suitable name and the path on your local instructional account (to find this path, you can enter `pwd` in your terminal once you navigate 
+into the copied folder)
+5. Click **File** $\rightarrow$ **Save** (or press `Ctrl+S`), then close the Library Path Editor window. Both libraries will now appear in your Library Manager.
+

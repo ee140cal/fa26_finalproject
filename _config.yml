@@ -7,6 +7,9 @@ plugins:
 
 remote_theme: just-the-docs/just-the-docs
 
+logo: "/assets/images/fig_course_logo.PNG"
+
+
 # Instructional server did not work, so hosting it on github now
 url: "https://ee140cal.github.io"
 baseurl: "/fa26_finalproject"

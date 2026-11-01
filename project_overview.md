@@ -24,7 +24,7 @@ the ideal PGA provided in any of the testbenches. More details on this
 are given in later sections.
 
 ![System block diagram of the fast-wakeup receiver link]({{ '/assets/images/fig_block_diagram.svg' | relative_url }}){: #fig:block_diagram style="width: 100%;"}
-*Figure 4: System block diagram of the fast-wakeup receiver link. Highlighted blocks (**CTLE** and **LDO**) represent the primary project design deliverables. The yellow **PGA** block is optional.*
+*Figure 4: System block diagram of the fast-wakeup receiver link. Highlighted blocks (**CTLE** and **LDO**) represent the primary project design deliverables. The yellow **PGA** block is optional. The CTLE and PGA both drive loads of 60 fF each.*
 
 ### General Instructions 
 {:#general-instructions .unnumbered}
