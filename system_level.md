@@ -84,3 +84,8 @@ suitable name and the path on your local instructional account (to find this pat
 into the copied folder)
 5. Click **File** $\rightarrow$ **Save** (or press `Ctrl+S`), then close the Library Path Editor window. Both libraries will now appear in your Library Manager.
 
+
+
+### TB Details
+
+The testbench named `rx_chain_tb` can be used to test your blocks in the receiver chain. For the 240A channel models, please replace the current channel model with a cell called `channel_models_240a` from the `project` folder.
