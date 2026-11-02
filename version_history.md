@@ -10,6 +10,7 @@ This page tracks major revisions, project updates, and website changes.
 
 | Date | Version | Description | Author |
 | :--- | :--- | :--- | :--- |
+| Nov 1, 2026 | `v1.1.2` | Minor additions in instructions in system-level TB | CV |
 | Nov 1, 2026 | `v1.1.1` | 240A channel models added to the test benches | CV |
 | Oct 31, 2026 | `v1.1.0` | 1. Added instructions to copy over system-level TB<br>2. Added 60 fF load for CTLE and PGA in the figures | CV |
 | Oct 29, 2026 | `v1.0.1` | Minor typo fixes | CV |

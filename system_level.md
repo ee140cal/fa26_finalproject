@@ -88,4 +88,6 @@ into the copied folder)
 
 ### TB Details
 
-The testbench named `rx_chain_tb` can be used to test your blocks in the receiver chain. For the 240A channel models, please replace the current channel model with a cell called `channel_models_240a` from the `project` folder.
+The testbench named `rx_chain_tb` can be used to test your blocks in the receiver chain. For the 240A channel models, please replace the current channel model with a cell called `channel_models_240a` from the `project` folder. 
+
+Note that when copying the testbenches and blocks into your account, you may have named the project folder differently. If so, you will need to manually point Cadence to the correct libraries for each ideal block in the testbench. Please see this [Ed comment](https://edstem.org/us/courses/103514/discussion/8448656?comment=19648925) for more details.
