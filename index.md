@@ -16,7 +16,7 @@ math: mathjax
 > We will use this site to handle any project updates. Check the **[Version History]({% link version_history.md %})** page to track recent changes.
 
 
-> Current Version: v1.1.2 | Last Changed: 11/01/2026 by CV
+> Current Version: v1.2.0 | Last Changed: 11/03/2026 by JM
 
 
 ## Motivation: Why a Receiver Front End?
