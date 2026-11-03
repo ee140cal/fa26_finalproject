@@ -12,7 +12,7 @@ you can.
 
 | Evaluation Item | Maximum Points |
 | --- | --- |
-| **Week 2 and 4 Check-ins** | **10** |
+| **Week 2 and 3 Check-ins** | **10** |
 | **Report, Techniques & Results** |  |
 | Design Equations/Analysis for each block | 15 |
 | Transistor Level Design and Design Techniques | 15 |
