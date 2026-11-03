@@ -13,8 +13,8 @@ CTLE and LDO blocks given and replace them with your blocks.
 Key testbench behaviors and operational sequences are defined below:
 
 - **Wake-up**: At $t = 50$ ns, a pulse (**WU**) with a 100 ps rise
-  time is asserted to the reference (VREF) of the LDO. The LDO must
-  settle within 300 ns after **WU** reaches 0.6 V. Settling is defined
+  time is asserted to the LDO. The LDO must
+  settle within 300 ns after **WU** reaches 1.2 V. Settling is defined
   identically to the standalone LDO testbench.
 
 - **Enable**: Once the LDO settles, an enable generator monitors the
@@ -65,7 +65,8 @@ please consult the GSIs first.
 | Parameter | Specification |
 | --- | --- |
 | Data rate | 10 Gb/s NRZ (UI $= 100\text{ ps}$, Nyquist $= 5\text{ GHz}$) |
-| External supply reference | $V_\mathrm{REF} = 0.6\text{ V}$ |
+| External supply reference voltage | $V_\mathrm{REF} = 0.6\text{ V}$ |
+| External supply reference current | $I_\mathrm{REF} = 1\text{ uA}$ |
 | Regulated supply voltage | $V_\mathrm{DD} = 1.0\text{ V}$ (same as LDO target) |
 | LDO Settling Time | 300 ns (same as LDO target) |
 | Channels | (**140**) A/B/C: 4/10/16 dB loss at 5 GHz<br> <br>(**240A**) A/B/C: 10/16/23 dB loss at 5 GHz |
