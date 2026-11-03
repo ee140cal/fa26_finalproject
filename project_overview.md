@@ -100,10 +100,8 @@ and progress on design to the lab GSIs.
   wake-up transients, and meeting requirements for line/load regulation
   and settling time.
 
-- **Check-in during Week 4**: You are expected to complete the relevant
-  ideal models for the LDO error amplifier and make significant progress
-  on the transistor-level design for the amplifier, pass transistor, and
-  stability analysis. You will be checked-off by the lab GSIs.
+- **Check-in during Week 3**: You are expected to complete the relevant
+  ideal models for the LDO error amplifier, make required testbenches, and determine specs of passives (R1,R2), pass transistor, ideal error amplifier. You will     be checked-off by the lab GSIs.
 
 - **Week 5**: Integration. Integrate the LDO and CTLE into the receiver
   signal chain shown in
