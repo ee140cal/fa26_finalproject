@@ -16,7 +16,7 @@ of the settled amplitude.
 | Parameter | Specification |
 | --- | --- |
 | Boost (gain at 5 GHz minus DC gain) | 0 to $\ge 12$ dB for 140, $\ge 18$ dB for 240A, $\ge 3$ settings |
-| Peak frequency | 5 GHz–7 GHz at every boost setting |
+| Peak frequency | 5 GHz–10 GHz at every boost setting |
 | Gain at 5 GHz | $\ge 0$ dB at every setting |
 | Bandwidth above the peak ($-3$ dB) | $\ge 8$ GHz |
 | Power | $\le 6$ mW from $V_{\mathrm{DD,AFE}}$ |
