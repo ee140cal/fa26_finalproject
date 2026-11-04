@@ -10,6 +10,7 @@ This page tracks major revisions, project updates, and website changes.
 
 | Date | Version | Description | Author |
 | :--- | :--- | :--- | :--- |
+| Nov 4, 2026 | `v1.3.2` | Added Checkoff Contents information for LDO| JM |
 | Nov 3, 2026 | `v1.3.1` | Changed Checkoff deadline for CTLE | JM |
 | Nov 3, 2026 | `v1.3.0` | Changed Boost specifications for CTLE | CV |
 | Nov 3, 2026 | `v1.2.0` | Changed some specifications for LDO | JM |
