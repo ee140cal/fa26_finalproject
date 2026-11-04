@@ -26,3 +26,13 @@ of the settled amplitude.
 **Deliverables:** Before/after eyes for all three channels, and eye
 height versus boost setting for channel C.
 
+## Checkoff Contents
+1. Explain what is the difference between having and not having RX termination?
+2. Compare the eye diagrams with and without TX impedance mismatch for
+both RX termination conditions (with and without RX termination).
+3. Implement CTLE transfer functions for different channel losses using the
+provided MATLAB script, and compare the eye diagrams before and after
+CTLE equalization.
+4. Implement the CTLE in Virtuoso and plot the eye diagrams before and
+after CTLE equalization for different channel losses.
+5. The CTLE design must meet the specifications provided in the handout.
