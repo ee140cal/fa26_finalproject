@@ -35,3 +35,15 @@ external capacitor and only 200 mV of headroom.
 
 The AFE turning on *is* the load step: your LDO transient result and the
 wake-up time are the same measurement.
+
+### Instructions to Copy the TB
+
+You can copy the LDO test bench from the instructor account using the instructions below
+
+1. Open the Terminal and go to the Cadence folder `cd ~/cadence`
+2. To copy the LDO testbench `cp -r /home/ff/ee140/fa26/project_fa26/project_lib_LDO/ .`
+3. Open Viruoso. In the **Library Manager** window, go to **Edit** $\rightarrow$ **Library Path...**. At the bottom of the list, add the above two libraries by giving a 
+suitable name and the path on your local instructional account (to find this path, you can enter `pwd` in your terminal once you navigate 
+into the copied folder)
+4. Click **File** $\rightarrow$ **Save** (or press `Ctrl+S`), then close the Library Path Editor window. Library will now appear in your Library Manager. If not, click view -> refresh on the Library Manager
+5. Try running simulation on the tb_AC_LDO, and change parameters if needed (You may have to add VDD on parameter with 1.2V)
