@@ -90,10 +90,10 @@ and progress on design to the lab GSIs.
   the CTLE is powered by the LDO you will design, so consider these
   supply constraints when making design choices.
 
-- **Check-in during Week 2**: You are expected to complete the relevant
+- **Check-in during Week 2(Extended to Week 3)**: You are expected to complete the relevant
   MATLAB/Python sims, and make significant progress on the
   transistor-level design for the CTLE. You will be checked-off by the
-  lab GSIs.
+  lab GSIs. Slip day doesn't applies to CTLE.
 
 - **Weeks 3--4**: LDO design. Tasks include determining open-loop
   specifications for the error amplifier, ensuring stability during
@@ -101,7 +101,7 @@ and progress on design to the lab GSIs.
   and settling time.
 
 - **Check-in during Week 3**: You are expected to complete the relevant
-  ideal models for the LDO error amplifier, make required testbenches, and determine specs of passives (R1,R2), pass transistor, ideal error amplifier. You will     be checked-off by the lab GSIs.
+  ideal models for the LDO error amplifier, make required testbenches, and determine specs of passives (R1,R2), pass transistor, ideal error amplifier. You will be checked-off by the lab GSIs.
 
 - **Week 5**: Integration. Integrate the LDO and CTLE into the receiver
   signal chain shown in
