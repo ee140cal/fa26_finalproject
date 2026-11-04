@@ -47,3 +47,13 @@ suitable name and the path on your local instructional account (to find this pat
 into the copied folder)
 4. Click **File** $\rightarrow$ **Save** (or press `Ctrl+S`), then close the Library Path Editor window. Library will now appear in your Library Manager. If not, click view -> refresh on the Library Manager
 5. Try running simulation on the tb_AC_LDO, and change parameters if needed (You may have to add VDD on parameter with 1.2V)
+
+### Checkoff Contents
+1. Build your own testbench or add equation, to obtain the specification in the table.
+2. Determine the initial specifications needed for ideal 1-pole OP Amp (Gain / BW), Passives(R1,R2), Pass TR Size and describe how you determined those specs
+3. Show the plots for each specification, with the ideal 1-pole OP Amp (No need for meet all specs at this point, but just showing that your testbench works for generating specs!)
+
+
+
+
+
