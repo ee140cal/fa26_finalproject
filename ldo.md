@@ -18,6 +18,7 @@ external capacitor and only 200 mV of headroom.
 | Parameter | Specification |
 | --- | --- |
 | $V_\mathrm{IN}$ / $V_\mathrm{OUT}$ | 1.2 V / 1.00 V |
+| $V_\mathrm{REF}$ / $I_\mathrm{REF}$ | 0.6 V / 1uA |
 | Dropout | $\le 200$ mV at 25 mA |
 | Load range | 50 μA (standby) to 25 mA |
 | Output capacitance | none external; $\le 300$ pF on chip in total, including AFE decap |
