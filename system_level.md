@@ -6,6 +6,9 @@ nav_order: 5
 
 ## System-level Specifications
 
+**Note: Please see this [Ed post](https://edstem.org/us/courses/103514/discussion/8481377) on channel model updates for CTLE.**
+
+
 You will be provided with a system-level testbench to integrate your
 CTLE and LDO into an otherwise ideal receiver chain. You will delete the
 CTLE and LDO blocks given and replace them with your blocks.

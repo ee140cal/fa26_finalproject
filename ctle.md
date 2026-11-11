@@ -6,6 +6,10 @@ nav_order: 3
 
 ## Block Specific Design Targets: CTLE
 
+
+**Note: Please see this [Ed post](https://edstem.org/us/courses/103514/discussion/8481377) on channel model updates for CTLE.**
+
+
 The CTLE must take channel C (12 dB at Nyquist for 140 and 18 dB for
 240A), whose eye arrives closed, and open it to at least 0.6 UI and 45 %
 of the settled amplitude.
