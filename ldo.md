@@ -7,21 +7,20 @@ nav_order: 4
 ## Block Specific Design Targets: LDO
 
 The supply block must hold $V_\mathrm{DD,AFE}$ within
-$\pm 1 \%$ while the whole AFE switches on, with no
+$\pm 1$ % while the whole AFE switches on, with no
 external capacitor and only 200 mV of headroom.
-
+All specification should be met at $I_\mathrm{LOAD} = \50\ \mu\text{A}$ and $\25\ \m\text{A}$, otherwise specified
 
 
 ### LDO 
-{:#ldo .unnumbered}
 
-| Parameter | Specification |
-| --- | --- |
-| $V_\mathrm{IN}$ / $V_\mathrm{OUT}$ | 1.2 V / 1.00 V |
-| $V_\mathrm{REF}$ / $I_\mathrm{REF}$ | 0.6 V / 1uA |
-| Dropout | $\le 200$ mV at 25 mA |
-| Load range | 50 μA (standby) to 25 mA |
-| Output capacitance | none external; $\le 300$ pF on chip in total, including AFE decap |
+| Parameter | Specification | Measurement |
+| --- | --- | --- |
+| $V_\mathrm{IN}$ / $V_\mathrm{OUT}$ | 1.2 V / 1.00 V $\pm 1$ %| DC simulation |
+| $V_\mathrm{REF}$ / $I_\mathrm{REF}$ | 0.4 V to 0.8 V / 1uA | Your Choice of $V_\mathrm{REF}$ to meet specification |
+| Dropout | $\le 200$ mV at 25 mA ||
+| Load range | 50 μA (standby) to 25 mA ||
+| Total capacitance | none external; $\le 300$ pF on chip in total, including output, compensation, decaps ||
 | Load step 50 μA $\to$ 25 mA in 1 ns | undershoot $\le 100$ mV; back within $\pm 1\%$ in $\le 50$ ns |
 | Load step 25 mA $\to$ 50 μA in 1 ns | overshoot $\le 100$ mV; |
 | Stability | phase margin $\ge 45^\circ$ across load |
