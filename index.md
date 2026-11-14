@@ -16,7 +16,7 @@ math: mathjax
 > We will use this site to handle any project updates. Check the **[Version History]({% link version_history.md %})** page to track recent changes.
 
 
-> Current Version: v1.3.3 | Last Changed: 11/11/2026 by CV
+> Current Version: v1.4.0 | Last Changed: 11/14/2026 by JM
 
 
 **Note: Please see this [Ed post](https://edstem.org/us/courses/103514/discussion/8481377) on channel model updates for CTLE.**
