@@ -29,7 +29,7 @@ All specifications should be met at $I_{\mathrm{LOAD}} = 50\\mu\mathrm{A}$ and $
 | PSRR | $\ge 40$ dB to 1 MHz, $\ge 15$ dB average to 10 GHz | AC Sim, Average over Log-scale, please see below for detailed instruction|
 | Output noise (optional) | $\le 100\ \mu\text{V}_{\text{rms}}$, 1 kHz to 1 GHz |
 | Quiescent current | $\le 300\ \mu\text{A}$ active (WU=1), $\le 10\ \mu\text{A}$ when sleeping. (WU=0 and $I_{\mathrm{LOAD}} = 0$) |DC Sim, Total Current Flows at VIN - $I_{\mathrm{LOAD}}\$  |
-| Cold start (Wake up) | $V_\mathrm{OUT}$ within $\pm 1\%$ in $\le 0.3\ \mu\text{s}$; no overshoot above 1.10 V |Transient Sim, please see below for detailed instruction|
+| Cold start (Wake up) | $V_\mathrm{OUT}$ within $\pm 1\%$ in $\le 3\ \mu\text{s}$; no overshoot above 1.10 V |Transient Sim, please see below for detailed instruction|
 | PVT-Robust Design (240A Only) | Meet the above spec with SS, 125°C corner as well |
 
 
