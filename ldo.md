@@ -53,7 +53,7 @@ Wake-up is controlled by a separate WU signal. Keep VIN at 1.2 V and keep VREF a
 Shutdown (WU = 0 V): You can choose your own strategy for the Shutdown. Example : Disable the internal bias currents and pull the pass PMOS gate to VIN to turn it off. Discharge VOUT to 0 V before starting the wake-up test. Set Load current as $I_{\mathrm{LOAD}} = 0\mathrm{A}$ for Shutdown.
 Wake-up: Raise WU from 0 V to 1.2 V with a 1ns rise time. Raise $I_{\mathrm{LOAD}} = 0\mathrm{A} to 50\\mu\mathrm{A}$ with a 100ns rise time. Enable the bias circuitry, release the pass-gate clamp, and turn off any output-discharge circuit.
 Regulation: The error amplifier takes control of the pass transistor and charges the output capacitor until VOUT reaches 1.0 V.
-VOUT must enter and remain within 0.99–1.01 V within 0.3 µs of this time, and must not exceed 1.10 V during startup.
+VOUT must enter and remain within 0.99–1.01 V within 3 µs of this time (3 µs after WU = 1.2V), and must not exceed 1.10 V during startup.
 
    
 ### Instructions to Copy the TB
