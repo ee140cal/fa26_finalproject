@@ -21,7 +21,7 @@ All specifications should be met at $I_{\mathrm{LOAD}} = 50\\mu\mathrm{A}$ and $
 | Dropout | $\le 200$ mV at 25 mA ||
 | Load range | 50 μA (standby) to 25 mA ||
 | Total capacitance | none external; $\le 300$ pF on chip in total, including output, compensation, decaps ||
-| Load step 50 μA $\to$ 25 mA in 100 ns | undershoot $\le 100$ mV; back within $\pm 1\%$ in $\le 50$ ns after 100ns| Transient Sim, you can use ipwl or ipulse |
+| Load step 50 μA $\to$ 25 mA in 100 ns | undershoot $\le 100$ mV; back within $\pm 1\%$ in $\le 50$ ns after Load current becomes 25mA| Transient Sim, you can use ipwl or ipulse |
 | Load step 25 mA $\to$ 50 μA in 100 ns | overshoot $\le 100$ mV; | Transient Sim, you can use ipwl or ipulse |
 | Stability | phase margin $\ge 45^\circ$ across load | Stability Sim, at $I_{\mathrm{LOAD}} = 50\\mu\mathrm{A}$ and $25\\mathrm{mA}$ |
 | Load regulation | $\le 5$ mV over the $I_{\mathrm{LOAD}}$ range | DC Sim, Check $V_\mathrm{OUT}$ at $I_{\mathrm{LOAD}} = 50\\mu\mathrm{A}$ and $25\\mathrm{mA}$ |
