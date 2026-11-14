@@ -12,7 +12,7 @@ receiver front end for USB 3.2 Gen 2 standards.
 - An appropriate, single-ended input/output **CTLE** to equalize each
   channel response in [Figure 1]({% link index.md %}#fig:channels).
 
-- A fast wake-up **LDO** regulator that takes a 1.2 V Power and 0.6 V
+- A fast wake-up **LDO** regulator that takes a 1.2 V Power and 0.4 V to 0.8V (Your Choice)
   reference voltage, and wakes up within 300 ns of asserting the wake-up
   signal.
 
