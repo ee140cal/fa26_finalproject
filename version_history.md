@@ -10,6 +10,7 @@ This page tracks major revisions, project updates, and website changes.
 
 | Date | Version | Description | Author |
 | :--- | :--- | :--- | :--- |
+| Nov 16, 2026 | `v1.4.1` | Changed Transient Specification for LDO | JM |
 | Nov 14, 2026 | `v1.4.0` | Changed Specification for LDO | JM |
 | Nov 11, 2026 | `v1.3.3` | CTLE TB Ed Post | CV |
 | Nov 4, 2026 | `v1.3.2` | Added Checkoff Contents information for LDO| JM |
