@@ -68,10 +68,10 @@ please consult the GSIs first.
 | Parameter | Specification |
 | --- | --- |
 | Data rate | 10 Gb/s NRZ (UI $= 100\text{ ps}$, Nyquist $= 5\text{ GHz}$) |
-| External supply reference voltage | $V_\mathrm{REF} = 0.6\text{ V}$ |
+| External supply reference voltage | $V_\mathrm{REF} = 0.4-0.8\text{ V}$ |
 | External supply reference current | $I_\mathrm{REF} = 1\text{ uA}$ |
 | Regulated supply voltage | $V_\mathrm{DD} = 1.0\text{ V}$ (same as LDO target) |
-| LDO Settling Time | 300 ns (same as LDO target) |
+| LDO Settling Time | 3 $\mu$s (same as LDO target) |
 | Channels | (**140**) A/B/C: 4/10/16 dB loss at 5 GHz<br> <br>(**240A**) A/B/C: 10/16/23 dB loss at 5 GHz |
 | Bit-error rate (BER) | Zero errors over test sequence |
 
@@ -95,3 +95,11 @@ into the copied folder)
 The testbench named `rx_chain_tb` can be used to test your blocks in the receiver chain. For the 240A channel models, please replace the current channel model with a cell called `channel_models_240a` from the `project` folder. 
 
 Note that when copying the testbenches and blocks into your account, you may have named the project folder differently. If so, you will need to manually point Cadence to the correct libraries for each ideal block in the testbench. Please see this [Ed comment](https://edstem.org/us/courses/103514/discussion/8448656?comment=19648925) for more details.
+
+
+### Some Tips 
+
+The following issues were reported by students.
+
+1. The channel model initially provided in the `system_level_tb` file might not accurately reflect the physical channel. If this is affecting your CTLE performance, you may change the channel model as mentioned in this [Ed comment](https://edstem.org/us/courses/103514/discussion/8448656?comment=19648925).
+2. The ideal comparator is set up to sample at the rising edge of clk by default. Depending on the delay from your CTLE, you *may* want to change this to sampling at the falling edge of the clk. You can use the clk on the testbench to create its complement.

@@ -10,6 +10,7 @@ This page tracks major revisions, project updates, and website changes.
 
 | Date | Version | Description | Author |
 | :--- | :--- | :--- | :--- |
+| Nov 16, 2026 | `v1.4.2` |  1. Added tips for system-level TB<br>2. Changed LDO spec on system-level specs to match the LDO spec | CV |
 | Nov 16, 2026 | `v1.4.1` | Changed Transient Specification for LDO | JM |
 | Nov 14, 2026 | `v1.4.0` | Changed Specification for LDO | JM |
 | Nov 11, 2026 | `v1.3.3` | CTLE TB Ed Post | CV |
